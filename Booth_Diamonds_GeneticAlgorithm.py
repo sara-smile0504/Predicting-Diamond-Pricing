@@ -554,7 +554,7 @@ attribute_map = {
 
     
 target = 'price'
-df = pd.read_excel("diamonds_train.xlsx")
+df = pd.read_excel("diamonds_geneticalgorithms.xlsx")
 print("Read", df.shape[0], "observations with ", 
       df.shape[1], "attributes:\n")
 
