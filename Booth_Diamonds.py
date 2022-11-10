@@ -2,7 +2,7 @@
 """
 Created on Sun May 30 19:01:02 2021
 
-@author: foster-s
+@author: booth-s
 """
 
 import pandas as pd
@@ -12,7 +12,7 @@ from AdvancedAnalytics.ReplaceImputeEncode import DT, ReplaceImputeEncode
 from AdvancedAnalytics.Regression import linreg,stepwise
 
 #Read in the file from specified location
-df = pd.read_excel("C:/Users/foster-s/OneDrive - Texas A&M University/Python Projects/Stat 656/HW 1/diamondswmissing.xlsx")
+df = pd.read_excel("diamondswmissing.xlsx")
 
 #Create the attribute map, remember that carat is actually capitalized. Other important note is that python actually cares
 #about the cut column having the attributes being capitalized. Code didn't work with fair instead had to do Fair. Jesus.
