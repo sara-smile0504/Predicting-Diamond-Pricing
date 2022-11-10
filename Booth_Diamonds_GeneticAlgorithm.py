@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 
-@author: Sara Foster
+@author: Sara Booth
 """
 
 from deap import creator, base, tools, algorithms
